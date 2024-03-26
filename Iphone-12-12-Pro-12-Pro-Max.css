@@ -748,7 +748,11 @@
 
 @media (max-width: 991px) {
   .u-section-5 .u-text-1 {
-    margin-top: 534px;
+    margin-top: 50px;
+    margin-right: 20px;
+  }
+  .u-section-3 .u-text-1 {
+    margin-top: 50px;
     margin-right: 20px;
   }
 
@@ -786,6 +790,19 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-text-1 {
-    margin-top: 1115px;
+    margin-top: 50px;
   }
+  .u-section-3 .u-text-1 {
+    margin-top: 50px;
+  }
+}
+
+
+
+.u-products-item{
+  margin: 20px 20px;
+  transition: transform 0.5s;
+}
+.u-products-item:hover{
+  transform: scale(1.1);
 }
